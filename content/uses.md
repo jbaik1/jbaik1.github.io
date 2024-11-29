@@ -2,6 +2,7 @@
 title: Uses
 hide_date: true
 reading_time: false
+share: false
 ---
 
 The idea of a Uses page is to tell you about the stuff I use.
