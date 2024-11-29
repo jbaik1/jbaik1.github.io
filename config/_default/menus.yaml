@@ -5,12 +5,16 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Bio
-    url: bio/
+  - name: Topics
+    url: tags/
     weight: 20
-  - name: Projects
+  - name: Uses
+    url: uses/
     weight: 30
+  - name: Projects
+    weight: 40
     hasChildren: true
   - parent: Projects
     name: project1
     url: project1/
+
