@@ -5,10 +5,15 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Projects
+
+  - name: Bio
+    url: bio/
     weight: 20
+
+  - name: Projects
+    weight: 30
     hasChildren: true
   - parent: Projects
     name: Music ML
-    url: music_ml/
+    url: Music ML/
 
