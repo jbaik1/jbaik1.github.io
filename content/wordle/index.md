@@ -27,13 +27,9 @@ For few-shot learning, we supply the model with some example games. After each g
 Your guess was: 'CARRO'. The feedback for each letter is:
 {
    1: Letter C is not anywhere present in the word.
-
    2: Letter A at Position 2 is in the word and at the correct position.
-
    3: Letter R at Position 3 is in the wrong position but is in the word.
-
-   4: Letter R at Position4 is in the wrong position but is in the word.
-
+   4: Letter R at Position 4 is in the wrong position but is in the word.
    5: Letter O is not anywhere present in the word.
 }
 
