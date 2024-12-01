@@ -9,8 +9,6 @@ For our final project in UCLA's CS 263 (Natural Language Processing) course, we 
 
 Here is our final report: Report
 
-{{% staticref "uploads/wordle.pdf" "newtab" %}}Report{{% /staticref %}}
-
 We chose Meta's [LLama3 8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) and [Zephyr-7B β](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) from HuggingFace
 
 In essence, this project tests the effectiveness of prompting to guide the LLMs to solve a Wordle problem.
