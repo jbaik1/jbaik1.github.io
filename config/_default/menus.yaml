@@ -14,4 +14,7 @@ main:
   - parent: Projects
     name: Music LM
     url: music-lm/
+  - parent: Projects
+    name: Can LLMs solve Wordle?
+    url: wordle
 
