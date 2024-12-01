@@ -12,6 +12,6 @@ main:
     weight: 30
     hasChildren: true
   - parent: Projects
-    name: Music ML
-    url: music-ml/
+    name: Music LM
+    url: Music-LM/
 
