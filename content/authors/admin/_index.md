@@ -54,5 +54,6 @@ highlight_name: true
 # Author's website URL
 website: ""
 ---
-Recently Master of Engineering Graduate @ UCLA
-CS & Physics Major @ UCLA
+
+Recently Master of Engineering Graduate at UCLA
+CS and Physics Major at UCLA
