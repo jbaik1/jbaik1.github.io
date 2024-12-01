@@ -3,6 +3,8 @@ title: Can LLMs solve Wordle?
 share: false
 ---
 
+[Github](https://github.com/jbaik1/CS-263-Wordle)
+
 LLMs have demonstrated incredible capabilities for both [zero-shot](https://arxiv.org/abs/2205.11916) and [few-shot]() learning.
 
 For our final project in UCLA's CS 263 (Natural Language Processing) course, we tested an LLM's ability to play [Wordle](https://www.nytimes.com/games/wordle/index.html)
