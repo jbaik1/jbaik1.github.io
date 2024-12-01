@@ -23,8 +23,7 @@ Our setup is such that the Wordle game consists of multiple "turns", where each 
 
 For few-shot learning, we supply the model with some example games. After each guess, there is an automated feedback that looks something like this:
 
-```
-Feedback:
+```Feedback:
 Your guess was: 'CARRO'. The feedback for each letter is:
 {
    1: Letter C is not anywhere present in the word.
@@ -38,23 +37,22 @@ Please enter your next guess:
 
 After this feedback, the goal is to have the LLM output a guess that includes its reasoning. For example: 
 
-```
- "guess: "APPLE",
- "reasoning" :
- "The list of previously guessed words are: ['BANANA', 'ORANGE', 'CARROT']
- The list of valid letters are: ['A', 'L', 'P', 'E']
- The list of invalid letters are: ['C', 'B', 'R', 'O', 'G']
+```"guess": "APPLE",
+"reasoning" :
+"The list of previously guessed words are: ['BANANA', 'ORANGE', 'CARROT']
+The list of valid letters are: ['A', 'L', 'P', 'E']
+The list of invalid letters are: ['C', 'B', 'R', 'O', 'G']
 
- The previous guess was: CARROT
- Given the previous feedback, we know that
- 1. The letter at position 1 (A) was in the string and in the correct position.
- 2. The letter at position 1 (P) was in the string and in the correct position.
- 3. The letter at position 1 (P) was in the string and in the correct position.
- 4. The letter at position 1 (L) was in the string and in the correct position.
- 5. The letter at position 1 (E) was in the string and in the correct position.
+The previous guess was: CARROT
+Given the previous feedback, we know that
+1. The letter at position 1 (A) was in the string and in the correct position.
+2. The letter at position 1 (P) was in the string and in the correct position.
+3. The letter at position 1 (P) was in the string and in the correct position.
+4. The letter at position 1 (L) was in the string and in the correct position.
+5. The letter at position 1 (E) was in the string and in the correct position.
 
- Improving on this feedback,
- the new guess is APPLE
+Improving on this feedback,
+the new guess is APPLE
  ```
 
  Note that the LLM did not guess 5 letter words before, and so the previous feedback just considered 'CARRO' instead of 'CARROT'.
