@@ -5,9 +5,6 @@ main:
   - name: Home
     url: /
     weight: 10
-  # - name: Bio
-  #   url: bio/
-  #   weight: 20
   - name: Projects
     weight: 30
     hasChildren: true
