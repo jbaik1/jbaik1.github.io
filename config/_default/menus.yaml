@@ -13,5 +13,5 @@ main:
     hasChildren: true
   - parent: Projects
     name: Music LM
-    url: Music-LM/
+    url: music-lm/
 

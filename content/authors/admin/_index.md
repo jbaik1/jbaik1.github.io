@@ -46,7 +46,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
   # - icon: rss
   #   url: ./post/index.xml
   #   label: Subscribe to my blog via RSS feed
-share: false
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
