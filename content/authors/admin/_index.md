@@ -25,7 +25,7 @@ superuser: true
 #     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I'm interested in using AI as tool to solve problems in various domains such as physics, climate change, biology, etc.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
