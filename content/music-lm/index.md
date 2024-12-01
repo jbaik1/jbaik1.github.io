@@ -17,13 +17,13 @@ A GPT model then trains on this data
 After training for about 24 hours on 1 Tesla V100 GPU, here are some generated music samples:
 
 {{< audio src="norm_long_0.mp3" >}}
-
+ 
 {{< audio src="norm_long_1.mp3" >}}
-
+ 
 {{< audio src="norm_long_2.mp3" >}}
-
+ 
 {{< audio src="norm_long_4.mp3" >}}
-
+ 
 {{< audio src="norm_long_4.mp3" >}}
 
 Even with the resource limitations, not too bad!
