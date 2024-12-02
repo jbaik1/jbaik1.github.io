@@ -55,5 +55,6 @@ highlight_name: true
 website: ""
 ---
 
-Recently Master of Engineering Graduate at UCLA
-CS and Physics Major at UCLA
+Recent graduate of Master of Engineering @ UCLA
+
+CS & Physics @ UCLA
