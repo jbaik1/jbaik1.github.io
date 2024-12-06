@@ -2,6 +2,10 @@
 title: Music LM
 share: false
 date: 2023-10-01
+
+profiles:
+- icon: brands/github
+   url: https://github.com/jbaik1
 ---
 
 Music is often considered as a universal language. That is, every culture has developed their own kind of music, and we eventually learn to enjoy various genres, even if some of them feel foreign at first. 
