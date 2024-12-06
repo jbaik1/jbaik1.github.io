@@ -1,6 +1,7 @@
 ---
 title: Can LLMs solve Wordle?
 share: false
+date: 2024-05-01
 ---
 
 [Github](https://github.com/jbaik1/CS-263-Wordle)
