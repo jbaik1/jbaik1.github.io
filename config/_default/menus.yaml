@@ -14,6 +14,14 @@ main:
     url: experience/
     weight: 20
   - name: Projects
-    url: projects/
     weight: 30
+    hasChildren: true
+  - parent: Projects
+    name: Music LM
+    url: music-lm/
+    weight: 40
+  - parent: Projects
+    name: Can LLMs solve Wordle?
+    url: wordle/
+    weight: 50
 
