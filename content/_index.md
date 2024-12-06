@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Jinwoo Baik"
 date: 2024-12-01
 type: landing
 
