@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Jinwoo Baik"
+title: ""
 date: 2024-12-01
 type: landing
 
@@ -15,11 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-  - block: resume-download
-    content:
-      - button:
-          text: Download CV
-          url: uploads/resume.pdf
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
