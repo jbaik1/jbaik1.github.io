@@ -22,14 +22,14 @@ sections:
       css_class: white
       background:
         color: white
-        # image:
-        #   # Add your image background to `assets/media/`.
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
+        image:
+          # Add your image background to `assets/media/`.
+          filename: blank.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
