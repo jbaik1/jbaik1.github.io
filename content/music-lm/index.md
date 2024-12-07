@@ -18,7 +18,8 @@ Compared to regular text, the amount of music is actually pretty limited. In ord
 In computer vision, examples of augmentations are rotations, flipping, etc. 
 Here, the augmentations will be in the form of shifting the pitches up and down, changing the tempo, and so on. Here is the configuration I used:
 
-```TOKENIZER_PARAMS = {
+```
+TOKENIZER_PARAMS = {
     "pitch_range": (21, 109),
     "beat_res": {(0, 4): 8, (4, 12): 4},
     "num_velocities": 16,
