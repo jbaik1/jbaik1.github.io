@@ -20,10 +20,4 @@ sections:
     design:
       view: citation
 
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
 ---
