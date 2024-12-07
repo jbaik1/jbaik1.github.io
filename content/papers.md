@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Publications & Preprints
+      title: Papers
       text: ""
       filters:
         folders:
