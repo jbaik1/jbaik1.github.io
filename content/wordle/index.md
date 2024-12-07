@@ -24,7 +24,8 @@ Our setup is such that the Wordle game consists of multiple "turns", where each 
 
 For few-shot learning, we supply the model with some example games. After each guess, there is an automated feedback that looks something like this:
 
-```Feedback:
+```
+Feedback:
 Your guess was: 'CARRO'. The feedback for each letter is:
 {
    1: Letter C is not anywhere present in the word.
@@ -39,7 +40,8 @@ Please enter your next guess:
 
 After this feedback, the goal is to have the LLM output a guess that includes its reasoning. For example: 
 
-```"guess: "APPLE",
+```
+"guess: "APPLE",
 "reasoning" :
 "The list of previously guessed words are: ['BANANA', 'ORANGE', 'CARROT']
 The list of valid letters are: ['A', 'L', 'P', 'E']
@@ -55,13 +57,13 @@ Given the previous feedback, we know that
 
 Improving on this feedback,
 the new guess is APPLE
- ```
+```
 
- Note that the LLM did not guess 5 letter words before, and so the previous feedback just considered 'CARRO' instead of 'CARROT'.
+Note that the LLM did not guess 5 letter words before, and so the previous feedback just considered 'CARRO' instead of 'CARROT'.
 
- The results weren't great, and here are some possible issues:
- 1. Model size was too small. We only had 1 GPU with 16GB memory to use, and we barely crammed in the Llama model using [4-bit quantization](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
+The results weren't great, and here are some possible issues:
+1. Model size was too small. We only had 1 GPU with 16GB memory to use, and we barely crammed in the Llama model using [4-bit quantization](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
 
- 2. LLMs aren't great at reasoning with positions and letters. However, this might be an issue with our prompting method. Maybe LLMs have gotten better at these tasks since then.
+2. LLMs aren't great at reasoning with positions and letters. However, this might be an issue with our prompting method. Maybe LLMs have gotten better at these tasks since then.
 
 Still a fun project!
