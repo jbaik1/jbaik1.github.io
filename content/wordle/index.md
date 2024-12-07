@@ -24,7 +24,7 @@ Our setup is such that the Wordle game consists of multiple "turns", where each 
 
 For few-shot learning, we supply the model with some example games. After each guess, there is an automated feedback that looks something like this:
 
-```
+``` 
 Feedback:
 Your guess was: 'CARRO'. The feedback for each letter is:
 {
@@ -40,7 +40,7 @@ Please enter your next guess:
 
 After this feedback, the goal is to have the LLM output a guess that includes its reasoning. For example: 
 
-```
+``` 
 "guess: "APPLE",
 "reasoning" :
 "The list of previously guessed words are: ['BANANA', 'ORANGE', 'CARROT']
