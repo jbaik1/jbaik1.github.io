@@ -6,12 +6,12 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "4rem"
 
 sections:
   - block: collection
     content:
-      title: Publications & Preprints
+      title: Papers
       text: ""
       filters:
         folders:
