@@ -62,7 +62,7 @@ the new guess is APPLE
 Note that the LLM did not guess 5 letter words before, and so the previous feedback just considered 'CARRO' instead of 'CARROT'.
 
 The results weren't great, and here are some possible issues:
-1. Model size was too small. We only had 1 GPU with 16GB memory to use, and we barely crammed in the Llama model using [4-bit quantization](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
+1. Model size was too small. We only had 1 GPU with 16GB memory to use, and we barely crammed in the smallest Llama model using [4-bit quantization](https://huggingface.co/blog/4bit-transformers-bitsandbytes).
 
 2. LLMs aren't great at reasoning with positions and letters. However, this might be an issue with our prompting method. Maybe LLMs have gotten better at these tasks since then.
 
