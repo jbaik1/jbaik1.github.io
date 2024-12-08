@@ -46,7 +46,7 @@ education:
     institution: UCLA
     date_start: 2023-09-01
     date_end: 2024-08-31
-  - area: "Dual Degrees in CS, B.S. & Physics, B.A."
+  - area: "Computer Science, B.S. | Physics, B.A."
     institution: UCLA
     date_start: 2019-09-01
     date_end: 2023-06-01
