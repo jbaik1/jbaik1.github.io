@@ -17,9 +17,8 @@ publication: "*Proceedings of the ACM on Web Conference 2024*"
 publication_types:
 - manuscript
 abstract: "Real-world multi-agent systems are often dynamic and continuous,
-  where the agents co-evolve and undergo changes in their trajecto-
-  ries and interactions over time. For example, the COVID-19 trans-
-  mission in the U.S. can be viewed as a multi-agent system, where
+  where the agents co-evolve and undergo changes in their trajecto
+  ries and interactions over time. For example, the COVID-19 transmission in the U.S. can be viewed as a multi-agent system, where
   states act as agents and daily population movements between them
   are interactions. Estimating the counterfactual outcomes in such
   systems enables accurate future predictions and effective decision-
