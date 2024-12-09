@@ -16,7 +16,7 @@ publishDate: '2024-12-06T22:54:12.461553Z'
 publication: "*Proceedings of the ACM on Web Conference 2024*"
 publication_types:
 - manuscript
-abstract: "Real-world multi-agent systems are often dynamic and continuous,
+abstract: Real-world multi-agent systems are often dynamic and continuous,
   where the agents co-evolve and undergo changes in their trajecto
   ries and interactions over time. For example, the COVID-19 transmission in the U.S. can be viewed as a multi-agent system, where
   states act as agents and daily population movements between them
@@ -35,7 +35,7 @@ abstract: "Real-world multi-agent systems are often dynamic and continuous,
   of potential outcomes. To mitigate confounding bias, we further
   propose two domain adversarial learning-based objectives, which
   enable our model to learn balanced continuous representations
-  that are not affected by treatments or interference. Experiments on two datasets (i.e., COVID-19 and tumor growth) demonstrate the superior performance of our proposed model."
+  that are not affected by treatments or interference. Experiments on two datasets (i.e., COVID-19 and tumor growth) demonstrate the superior performance of our proposed model.
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2403.00178
