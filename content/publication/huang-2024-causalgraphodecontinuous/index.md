@@ -11,32 +11,32 @@ authors:
 - Yizhou Sun
 - Quanquan Gu
 - Wei Wang
-abstract: Real-world multi-agent systems are often dynamic and continuous,
-where the agents co-evolve and undergo changes in their trajecto-
-ries and interactions over time. For example, the COVID-19 trans-
-mission in the U.S. can be viewed as a multi-agent system, where
-states act as agents and daily population movements between them
-are interactions. Estimating the counterfactual outcomes in such
-systems enables accurate future predictions and effective decision-
-making, such as formulating COVID-19 policies. However, existing
-methods fail to model the continuous dynamic effects of treatments
-on the outcome, especially when multiple treatments (e.g., "stay-
-at-home" and "get-vaccine" policies) are applied simultaneously.
-To tackle this challenge, we propose Causal Graph Ordinary Dif-
-ferential Equations (CAG-ODE), a novel model that captures the
-continuous interaction among agents using a Graph Neural Net-
-work (GNN) as the ODE function. The key innovation of our model
-is to learn time-dependent representations of treatments and incor-
-porate them into the ODE function, enabling precise predictions
-of potential outcomes. To mitigate confounding bias, we further
-propose two domain adversarial learning-based objectives, which
-enable our model to learn balanced continuous representations
-that are not affected by treatments or interference. Experiments on two datasets (i.e., COVID-19 and tumor growth) demonstrate the superior performance of our proposed model.
 date: '2024-01-01'
 publishDate: '2024-12-06T22:54:12.461553Z'
 publication: "*Proceedings of the ACM on Web Conference 2024*"
 publication_types:
 - manuscript
+abstract: "Real-world multi-agent systems are often dynamic and continuous,
+  where the agents co-evolve and undergo changes in their trajecto-
+  ries and interactions over time. For example, the COVID-19 trans-
+  mission in the U.S. can be viewed as a multi-agent system, where
+  states act as agents and daily population movements between them
+  are interactions. Estimating the counterfactual outcomes in such
+  systems enables accurate future predictions and effective decision-
+  making, such as formulating COVID-19 policies. However, existing
+  methods fail to model the continuous dynamic effects of treatments
+  on the outcome, especially when multiple treatments (e.g., "stay-
+  at-home" and "get-vaccine" policies) are applied simultaneously.
+  To tackle this challenge, we propose Causal Graph Ordinary Dif-
+  ferential Equations (CAG-ODE), a novel model that captures the
+  continuous interaction among agents using a Graph Neural Net-
+  work (GNN) as the ODE function. The key innovation of our model
+  is to learn time-dependent representations of treatments and incor-
+  porate them into the ODE function, enabling precise predictions
+  of potential outcomes. To mitigate confounding bias, we further
+  propose two domain adversarial learning-based objectives, which
+  enable our model to learn balanced continuous representations
+  that are not affected by treatments or interference. Experiments on two datasets (i.e., COVID-19 and tumor growth) demonstrate the superior performance of our proposed model."
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2403.00178
