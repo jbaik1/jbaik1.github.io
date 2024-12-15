@@ -66,4 +66,4 @@ The results weren't great, and here are some possible issues:
 
 2. LLMs aren't great at reasoning with positions and letters. However, this might be an issue with our prompting method. Maybe LLMs have gotten better at these tasks since then.
 
-Still a fun project!
+Still a fun project! 
